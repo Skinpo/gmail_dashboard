@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    background-image: url("../bg_gmail.jpg");
+    background-image: url("../images/bg_gmail.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;

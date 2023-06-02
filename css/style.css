@@ -526,69 +526,40 @@ video {
   position: absolute;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
-.mt-\[-50px\] {
-  margin-top: -50px;
-}
-
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-\[0\] {
-  margin-top: 0;
-}
-
-.mt-\[250px\] {
-  margin-top: 250px;
-}
-
-.mt-\[150px\] {
-  margin-top: 150px;
-}
-
-.mt-\[450px\] {
-  margin-top: 450px;
+.ml-\[10px\] {
+  margin-left: 10px;
 }
 
 .mt-\[650px\] {
   margin-top: 650px;
 }
 
-.mt-\[850px\] {
-  margin-top: 850px;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[1\] {
-  margin-left: 1;
-}
-
-.ml-\[15px\] {
-  margin-left: 15px;
-}
-
-.ml-\[5px\] {
-  margin-left: 5px;
-}
-
 .ml-\[px\] {
   margin-left: px;
 }
 
-.ml-\[10px\] {
-  margin-left: 10px;
+.ml-\[8px\] {
+  margin-left: 8px;
+}
+
+.ml-\[6px\] {
+  margin-left: 6px;
+}
+
+.mt-\[750px\] {
+  margin-top: 750px;
+}
+
+.mt-\[950px\] {
+  margin-top: 950px;
+}
+
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-\[850px\] {
+  margin-top: 850px;
 }
 
 .flex {
@@ -607,44 +578,88 @@ video {
   height: 500px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-\[501px\] {
-  height: 501px;
-}
-
 .h-\[505px\] {
   height: 505px;
+}
+
+.h-\[00px\] {
+  height: 00px;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[805px\] {
+  height: 805px;
+}
+
+.h-\[05px\] {
+  height: 05px;
+}
+
+.h-\[705px\] {
+  height: 705px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[605px\] {
+  height: 605px;
+}
+
+.h-\[65px\] {
+  height: 65px;
+}
+
+.h-\[675px\] {
+  height: 675px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[670px\] {
+  height: 670px;
+}
+
+.h-\[5px\] {
+  height: 5px;
+}
+
+.h-\[55px\] {
+  height: 55px;
+}
+
+.h-\[0px\] {
+  height: 0px;
+}
+
+.h-\[50px\] {
+  height: 50px;
 }
 
 .w-\[10px\] {
   width: 10px;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
 .w-full {
   width: 100%;
-}
-
-.w-\[300px\] {
-  width: 300px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[100px\] {
-  width: 100px;
-}
-
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[0px\] {
-  width: 0px;
 }
 
 .w-\[50px\] {
@@ -655,32 +670,20 @@ video {
   width: px;
 }
 
-.w-\[80px\] {
-  width: 80px;
+.w-\[45px\] {
+  width: 45px;
 }
 
-.w-\[40px\] {
-  width: 40px;
+.w-\[4px\] {
+  width: 4px;
 }
 
-.max-w-\[20px\] {
-  max-width: 20px;
-}
-
-.max-w-\[300px\] {
-  max-width: 300px;
-}
-
-.max-w-\[40px\] {
-  max-width: 40px;
+.w-\[48px\] {
+  width: 48px;
 }
 
 .flex-col {
   flex-direction: column;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -703,9 +706,12 @@ video {
   border-radius: 0.75rem;
 }
 
-.rounded-l {
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .border-2 {
@@ -727,19 +733,14 @@ video {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
-.bg-red-100 {
+.bg-blue-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
 }
 
 .px-\[10px\] {
@@ -752,96 +753,14 @@ video {
   padding-bottom: 10px;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-5 {
-  opacity: 0.05;
-}
-
-.opacity-25 {
-  opacity: 0.25;
-}
-
-.opacity-\[\] {
-  opacity: ;
-}
-
-.opacity-\[60px\] {
-  opacity: 60px;
-}
-
-.opacity-\[60\] {
-  opacity: 60;
-}
-
-.opacity-\[60\%\] {
-  opacity: 60%;
-}
-
-.opacity-\[0\%\] {
-  opacity: 0%;
-}
-
-.opacity-\[90\%\] {
-  opacity: 90%;
-}
-
-.opacity-\[80\%\] {
-  opacity: 80%;
-}
-
-.opacity-\[30\%\] {
-  opacity: 30%;
-}
-
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.blur {
-  --tw-blur: blur(8px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.blur-sm {
-  --tw-blur: blur(4px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.backdrop-blur-xl {
-  --tw-backdrop-blur: blur(24px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 .backdrop-blur {
   --tw-backdrop-blur: blur(8px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
-.backdrop-blur-sm {
-  --tw-backdrop-blur: blur(4px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
 body {
-  background-image: url("../bg_gmail.jpg");
+  background-image: url("../images/bg_gmail.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -853,15 +772,11 @@ body {
     display: none;
   }
 
-  .md\:w-\[300px\] {
-    width: 300px;
-  }
-
-  .md\:w-\[\] {
-    width: ;
-  }
-
   .md\:w-\[100px\] {
     width: 100px;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
   }
 }
