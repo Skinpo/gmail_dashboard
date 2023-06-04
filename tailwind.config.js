@@ -3,7 +3,7 @@ module.exports = {
   content: ['./*.html'],
   theme: {
     fontFamily: {
-      Montserrat: ["Montserrat", "sans-serif"]
+      Geologica: ["Geologica", "sans-serif"]
     },
     screens: {
       sm: '480px',
@@ -11,7 +11,12 @@ module.exports = {
       lg: '976px',
       xl: '1440px'
     },
-    extend: {},
+    extend: {
+      colors : {
+        bluish: "#7b9cc7",
+        mild: "#97999c"
+      }
+    },
   },
   plugins: [],
 }

@@ -6,43 +6,185 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Gmail Dashboard</title>
 </head>
 <body>
+
+    <!-- 
+        For click
+        <div class="w-[35px] hover:bg-bluish h-[35px] pt-[5px] ml-[16px] rounded-lg md:ml-[8px] md:w-full">
+     -->
      
     <section>
         <div class=" flex items-center justify-center">
            
-            <div class="absolute w-[70px] h-[685px] mt-[750px] border-white border-2 rounded-xl md:w-[250px]">
-                <div class="absolute w-full backdrop-blur h-[680px] rounded-xl"></div>
-                <div class="absolute flex flex-col justify-between pt-[15px]">
+            <div class="absolute w-[70px] h-[735px] mt-[820px] border-white border-2 rounded-xl md:w-[250px]">
+                <div class="absolute w-full backdrop-blur h-[730px] rounded-xl"></div>
+                <div class="absolute flex flex-col pt-[15px]">
 
-                    <div class="circles flex w-[40px] justify-between ml-[15px]">
+                    <div class="circles flex w-[40px] justify-between ml-[13px] md:ml-[15px]">
                         <div class="circle w-[10px] h-[10px] rounded-full bg-red-500"></div>
                         <div class="circle w-[10px] h-[10px] rounded-full bg-yellow-500"></div>
                         <div class="circle w-[10px] h-[10px] rounded-full bg-green-500"></div>
                     </div>
 
-                    <div class="ml-[18px]">
+                    <div class="ml-[15px] mt-[15px]">
                         <img src="../images/icon_logo.png" class="w-[35px] md:hidden">
                     </div>
 
                     <div class="hidden md:flex ml-[18px]">
-                        <div class="menu mr-[15px] mt-[7px]">
-                            <div class="up w-[15px] h-[2px] bg-white mb-[3px]"></div>
-                            <div class="middle w-[15px] h-[2px] bg-white mb-[3px]"></div>
-                            <div class="down w-[15px] h-[2px] bg-white"></div>
+                        <a href="#">
+                            <div class="menu mr-[15px] mt-[7px]">
+                                <div class="up w-[15px] h-[2px] bg-white mb-[3px]"></div>
+                                <div class="middle w-[15px] h-[2px] bg-white mb-[3px]"></div>
+                                <div class="down w-[15px] h-[2px] bg-white"></div>
+                            </div>
+                        </a>
+                        <img src="../images/gmail_logo.png" class="md:w-[125px]">
+                    </div>
+
+                    <div class="w-[35px] h-[1px]  ml-[15px] bg-white mt-[7px] md:w-[150px] md:mx-auto"></div>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/compose.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Compose</p>
+                            </div> 
                         </div>
-                        <img src="../images/gmail_logo.png" class="md:w-[115px]">
-                    </div>
+                    </a>
 
-                    <div class="flex w-[200px] ml-[8px]">
-                        <img src="../images/compose.png" class="w-[25px] ml-[15px] rounded-lg mr-[20px] md:ml-[5px]">
-                        <p class="md:font-Montserrat text-[14px] mt-[5px] text-white">Compose</p>
-                    </div>
+                    <div class="w-[35px] h-[1px]  ml-[15px] bg-white mt-[7px] md:w-[150px] md:mx-auto"></div>
 
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/inbox.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Inbox</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/starred.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Starred</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/scheduled.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Snoozed</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/sent.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Sent</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/draft.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Drafts</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] bg-mild h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/up.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Less</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <!-- Lower Parts -->
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/important.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Important</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/chats.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Chats</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/scheduled.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Scheduled</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/mail.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">All mail</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/spam.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Spam</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/trash.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Trash</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/categories.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Categories</p>
+                            </div> 
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="w-[66px] mt-[7px] hover:bg-bluish h-[35px] pt-[5px] md:w-[246px] md:ml-0"> 
+                            <div class="flex w-[246px] ml-[7px] md:ml-[15px]">
+                                <img src="../images/label.png" class="w-[25px] ml-[10px] md:ml-[4px] md:mr-[20px]">
+                                <p class="md:font-Geologica font-light text-[12px] pt-[5px] text-white">Manage Labels</p>
+                            </div> 
+                        </div>
+                    </a>
                     
                 </div>
             </div>
